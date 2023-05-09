@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@1,400;1,500&family=Sigmar&display=swap');
+
+body{
+    background-color: blanchedalmond;
+}
+h1,footer{
+    text-align: center;
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color:rgb(93,178, 249);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+/* h2,p{
+    text-indent: 50px;
+} */
+
+#noborderspaces{
+    border: spacing 0; 
+}
+table{
+    margin: 0px;
+    padding: 0px;
+}
+
+tr:first-child td:nth-child(2){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.664); border-right: 1px solid rgba(0, 0, 0, 0.664);
+}
+tr:first-child td:nth-child(3){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.664); border-left: 1px solid rgba(0, 0, 0, 0.664);
+}
+tr:nth-child(2) td:first-child{
+    border-top: 1px solid rgba(0, 0, 0, 0.664); border-right: 1px solid rgba(0, 0, 0, 0.664);
+}
+tr:nth-child(2) td:nth-child(2){
+    border-top: 1px solid rgba(0, 0, 0, 0.664); border-left: 1px solid rgba(0, 0, 0, 0.664);
+}
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: rgb(0, 255, 0);
+}
+a:hover{
+    color: rgb(255, 0, 43);
+}
+a:active{
+    color: blue;
+}
+td{
+    padding: 30px;
+    text-align: left;
+}
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+
+} */
